@@ -1,0 +1,9 @@
+CREATE TABLE world_gdp (
+    country VARCHAR,
+    year INT,
+    gdp NUMERIC,
+    PRIMARY KEY (country, year) 
+);
+
+
+SELECT * FROM world_gdp;

@@ -1,0 +1,12 @@
+CREATE TABLE world_indicator (
+    country VARCHAR,
+    year INTEGER,
+    mean_years_of_schooling NUMERIC,
+    expected_years_of_schooling NUMERIC,
+    human_development_index NUMERIC,
+    life_expectancy_years NUMERIC,
+    gross_national_income_per_capita NUMERIC,
+    PRIMARY KEY (country, year) 
+);
+
+SELECT * FROM world_indicator;
